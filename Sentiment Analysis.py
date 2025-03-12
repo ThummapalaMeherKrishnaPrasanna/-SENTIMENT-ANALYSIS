@@ -14,4 +14,5 @@ text = "I absolutely love this product! It's amazing and works perfectly."
 
 # Perform sentiment analysis
 sentiment_score = sia.polarity_scores(text)
+print(text)
 print(sentiment_score)
